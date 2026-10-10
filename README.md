@@ -106,7 +106,7 @@ The following browsers have worked well in testing:
 - **Google Chrome for Testing 120.0.6099.109** — a Linux build tested with this extension.
 - **Chromium Headless Shell** — a standalone headless browser from Playwright.
 
-### Anti-Bot Checks
+## Anti-Bot Checks
 
 Some websites may block automated browsing or require human verification. If this happens, try the following:
 
