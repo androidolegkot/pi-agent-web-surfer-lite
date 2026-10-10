@@ -1,6 +1,6 @@
 # Pi Agent Web Surfer Lite
 
-A lightweight web browsing extension for [Pi Coding Agent](https://github.com/badlogic/pi-mono) using headless Chromium via the Chrome DevTools Protocol (CDP).
+A lightweight web browsing extension for [Pi Coding Agent](https://github.com/earendil-works/pi) using headless Chromium via the Chrome DevTools Protocol (CDP).
 
 ## Features
 
