@@ -51,7 +51,7 @@ For direct output, `limit` and `offset` can be used to retrieve a specific porti
 
 ## Requirements
 
-- [Pi Coding Agent](https://github.com/badlogic/pi-mono)
+- [Pi Coding Agent](https://github.com/earendil-works/pi)
 - Node.js
 - Chromium or a compatible headless Chromium executable
 - A running CDP endpoint accessible to the extension
