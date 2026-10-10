@@ -99,4 +99,4 @@ Configure the Chromium executable and CDP settings for your environment, then re
 
 ## Acknowledgments
 
-Developed with assistance from [ChatGPT](chatgpt.com) and [Claude](claude.ai).
+Developed with assistance from ChatGPT(chatgpt.com) and Claude(claude.ai).
