@@ -106,6 +106,16 @@ The following browsers have worked well in testing:
 - **Google Chrome for Testing 120.0.6099.109** — a Linux build tested with this extension.
 - **Chromium Headless Shell** — a standalone headless browser from Playwright.
 
+### Anti-Bot Checks
+
+Some websites may block automated browsing or require human verification. If this happens, try the following:
+
+- **Use the same browser profile manually.** Start the browser with the same `--user-data-dir` profile used by the extension, open the website, and complete any verification checks. The resulting cookies and session data may then be available to the extension.
+- **Try headed mode.** Remove the `--headless` argument from `BROWSER_ARGS` to run the browser with a visible window. This requires a graphical environment.
+- **Adjust the User-Agent.** You can change the `--user-agent` argument to match a browser version compatible with your environment.
+
+These steps may help with some websites, but they do not guarantee access. Some sites use additional checks beyond the User-Agent, cookies, or headless mode.
+
 ## Acknowledgments
 
 Developed with assistance from **ChatGPT** (chatgpt.com) and **Claude** (claude.ai).
