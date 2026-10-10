@@ -97,6 +97,15 @@ cp web-surfer-lite-typescript.ts ~/.pi/agent/extensions/
 
 Configure the Chromium executable and CDP settings for your environment, then restart Pi Agent or reload extensions as appropriate.
 
+## Browser
+
+The extension uses a Chromium-based browser controlled through the Chrome DevTools Protocol (CDP).
+
+The following browsers have worked well in testing:
+
+- **Google Chrome for Testing 120.0.6099.109** — a Linux build tested with this extension.
+- **Chromium Headless Shell** — a standalone headless browser from Playwright.
+
 ## Acknowledgments
 
 Developed with assistance from **ChatGPT** (chatgpt.com) and **Claude** (claude.ai).
