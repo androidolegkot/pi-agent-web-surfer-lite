@@ -29,7 +29,7 @@ const BROWSER_ARGS = [
   `--remote-debugging-address=${CDP_HOST}`,
   `--remote-debugging-port=${CDP_PORT}`,
   "--disable-blink-features=AutomationControlled",
-  "--lang=ru-RU,ru",
+  "--lang=en-US,en",
   "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
   `--user-data-dir=${path.join(os.homedir(), "chromium_headless_shell-profile")}`,
   "https://example.com",
