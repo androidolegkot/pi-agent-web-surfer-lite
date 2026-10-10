@@ -88,7 +88,7 @@ The default read timeout applies to combined `*_and_read` operations when no tim
 
 ## Installation
 
-Place `web-surfer-lite.ts` in your Pi Agent extensions directory, for example:
+Place `web-surfer-lite-typescript.ts` in your Pi Agent extensions directory, for example:
 
 ```bash
 mkdir -p ~/.pi/agent/extensions
