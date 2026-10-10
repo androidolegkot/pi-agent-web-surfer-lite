@@ -74,7 +74,7 @@ The browser and storage settings are defined at the top of `web-surfer-lite-type
 
 Edit these constants to match your environment. The browser executable must exist, and the CDP host and port must be accessible to the extension.
 
-### Default Limits
+## Default Limits
 
 | Setting | Default |
 | --- | --- |
